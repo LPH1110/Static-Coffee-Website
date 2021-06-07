@@ -1,0 +1,143 @@
+/* PC */
+@media (min-width: 1024px) {
+    #header .menu-bar {
+        display: none;
+    }
+}
+
+/* Tablet & mobile */
+
+@media (max-width: 1023px) {
+    .contact-info {
+        line-height: 2.0;
+    }
+
+    .social-icons {
+        font-size: 30px !important;
+    }
+
+    .social-icons i {
+        margin: 0 5px;
+    }
+
+    .copyright {
+        font-size: 22px !important;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #header .menu-bar {
+        display: none;
+    }
+
+    .place-body .buy-ticket-btn {
+        padding: 14px 24px;
+        font-size: 17px;;
+    }
+
+    .form-control {
+        padding: 11px;
+    }
+
+    .form-submit-btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    /* Common */
+    .col-mobile {
+        float: none;
+        width: 100%;
+    }
+
+    .mt-16-mobile {
+        margin-top: 16px;
+    }
+
+    .mtb-8-mobile {
+        margin: 8px 0;
+    }
+
+    /* Main */
+    .content-section {
+        overflow: hidden;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-icon {
+        display: none;
+    }
+
+    #head-nav > li {
+        display: block;
+    }
+
+    #head-nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header .menu-bar:hover {
+        background-color: #ccc;
+        color: #000;
+        cursor: pointer;
+    }
+
+    .members-section {
+        padding: 32px 8px;
+
+    }
+
+    .members-section .mem-mobile {
+        float: none;
+        width: 100%;
+    }
+
+    .members-section .member-img {
+        width: 60%;
+        height: 60%;
+        margin-bottom: 16px;
+    }
+
+    #tour .ticket-mobile {
+        float: none;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+        font-size: 17px;
+        padding: 14px 24px;
+        appearance: none;
+        -webkit-appearance: none;
+    }
+
+    .form-control {
+        padding: 12px;
+    }
+
+    #head-nav .sub-nav {
+        width: 100%;
+    }
+
+    .sub-nav li {
+        padding: 5px 16px;
+    }
+
+    .sub-nav li a {
+        font-size: 18px;
+    }
+
+    .form-footer__close-btn {
+        padding: 12px 18px;
+        font-size: 18px;
+    }
+}
